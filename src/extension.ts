@@ -55,9 +55,12 @@ export function activate(context: vscode.ExtensionContext) {
         }
       }
 
+      // order by words
+
       // #1 Mapping the array to an object...
       for (const schema of schemas) {
-        let obj = schema.array.reduce(
+        const sorted = schema.array.sort((a, b) => a.field.localeCompare(b.field));
+        let obj = sorted.reduce(
           (acc, { field, value }) => ({ ...acc, [field]: value }),
           {}
         );

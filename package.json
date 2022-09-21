@@ -3,7 +3,7 @@
   "displayName": "csv2i18n",
   "description": "convert csv file to i18n json file",
   "publisher": "johnwick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.71.0"
   },

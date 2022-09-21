@@ -5,7 +5,7 @@ Apply to devextreme localization extendMessages.
 
 ## Example
 Csv Template (for 3 language):
-```json
+```csv
 key|en|zh-tw|zh-cn
 System.User|User|使用者|用户
 System.App|Application|應用程式|应用程序
@@ -52,3 +52,6 @@ Initial release
 
 ### 1.0.0
 Update README
+
+### 1.0.1
+Update json key alphabetically
